@@ -1,0 +1,15 @@
+{
+    "apps": [
+      {
+        "name": "server",
+        "script": "./app.js",
+        "watch": true,
+        "node_args": ["--inspect=0.0.0.0:9222"],
+        "ignore_watch": [
+          "tmp",
+          "node_modules",
+          ".git"
+        ]
+      }
+    ]
+  }
